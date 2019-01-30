@@ -1,0 +1,185 @@
+@font-face {
+  src: url('../fonts/BirchStd.otf');
+  font-family: 'BirchStd';
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  font-size: 13px;
+  line-height: 1.5;
+  color: #000;
+  background: #e7e7e7;
+}
+body * {
+  box-sizing: border-box;
+}
+img {
+  width: auto;
+  max-width: 100%;
+}
+a {color: #0075d0;}
+h2, h3 {
+  margin: 0;
+  margin-bottom: 10px;
+  color: #838383;
+  line-height: 1;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 20px;
+}
+p {
+  margin: 0;
+}
+
+.wrapper {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.hide {
+  overflow: hidden;
+}
+
+header {
+  padding: 12px 0 7px 0;
+  background: #171616;
+}
+
+header .logo {
+  float: left;
+}
+
+.logo a {
+  font-size: 36px;
+  font-family: 'BirchStd', sans-serif;
+  color: #fff;
+  line-height: 1;
+  text-decoration: none;
+}
+
+.logo a span {
+  color: #b0b0b0;
+}
+
+.logo p {
+  color: #686868;
+}
+
+header .form {
+  padding-top: 10px;
+  float: right;
+}
+
+.form input {
+  width: 350px;
+  padding-left: 12px;
+  color: #fff;
+  line-height: 29px;
+  border: 1px solid #4c4c4c;
+  background: #323232;
+}
+
+.btn {
+  padding: 8px 14px;
+  font-weight: bold;
+  color: #fff;
+  border: 1px solid #4c4c4c;
+  background: #000;
+  cursor: pointer;
+}
+
+.banner {
+  background: #000;
+}
+
+.banner .wrapper {
+  min-height: 329px;
+  background: url('../images/banner-bg.jpg') no-repeat 0 0;
+}
+
+.pdt {
+  padding-top: 259px;
+}
+
+.banner p {
+  padding: 16px 20px;
+  color: #fff;
+  background: rgba(115, 115, 115, 0.5);
+}
+
+nav {
+  background: #000;
+}
+
+nav a {
+  display: inline-block;
+  padding: 9px 24px;
+  font-size: 14px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border-right: 1px solid #272727;
+}
+
+section {
+  padding: 15px 13px;
+  background: #fff;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item {
+  width: 23%;
+  height: 150px;
+  border: 11px solid #e2e2e2;
+}
+
+.container-columns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.column:last-child ul {
+  text-align: center;
+  list-style: none;
+  padding: 0 40px 0 0;
+}
+
+table {
+  border-color: #d5d5d5;
+}
+
+table th {
+  text-align: left;
+  background: #efefef; 
+}
+
+.form-row {
+  padding: 7px 0;
+}
+
+.form-row:first-child label {
+  display: block;
+}
+
+.form-row input, .form-row select{
+  border: 1px solid #b7b7b7;
+  line-height: 28px;
+  padding-left: 8px;
+}
+
+textarea {
+  border: 1px solid #b7b7b7;
+}
+
+footer {
+  padding: 12px 0;
+  color: #656565;
+}
